@@ -20,5 +20,5 @@ grunt.loadNpmTasks('grunt-contrib-jshint');
 grunt.loadNpmTasks('grunt-contrib-watch');
 
 grunt.registerTask('default',['watch','jshint']);
-grunt.registerTask('task two',['observe']);
+grunt.registerTask('taskTwo',['watch']);
 };
